@@ -1,0 +1,55 @@
+body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #simple{
+        width: 150px;
+        height: 50px;
+        color: white;
+        background-color: green;
+        position: absolute;
+        top:0;
+        left:10% ;
+      }
+      #hex{
+        width: 150px;
+        height: 50px;
+        background-color: rgb(62, 139, 62);
+        color: white;
+        position: absolute;
+        top:0;
+        right:10%;
+      }
+  #colorName{
+      width: 600px;
+      height: 105px;
+      background-color: grey;
+      color: white;
+      text-align: left;
+      font-size: 40px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #button{
+    width: 150px;
+    height: 70px;
+    border: 10px solid grey;
+    color: grey;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  #name{
+    width: 150px;
+    height: 50px;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
